@@ -1,0 +1,269 @@
+
+* {
+    margin: 0;
+}
+
+body, html {
+    width: 100%;
+    height: 960px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 234, 238);
+    overflow: hidden;
+}
+
+#hImage {
+    width: 100%;
+    height: 300px;
+    background-image: url(bgPattern.jpg);
+}
+
+#main {
+    width: 500px;
+    height: 500px;
+    z-index: 3;
+    background-color: white;
+    position: fixed;
+    top: 180px;
+    left: 390px;
+    border-radius: 20px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+#smHeader {
+    width: 70%;
+    height: 82px;
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+
+#smImage {
+    width: 20%;
+    height: 65px;
+    background-image: url(fourSSB.jpg);
+    background-size: 100%;
+}
+
+#smHtext {
+    color: black;
+    position: relative;
+    top: -60px;
+    left: 80px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#Qone {
+    width: 80%;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    border-bottom: 0.4px solid black;
+}
+
+
+#iconA {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url(plusB.jpg);
+    background-size: 100%;
+    position: absolute;
+    left: 400px;
+    top: -10px;
+}
+
+.menu1 ul {
+    margin: 0;
+    list-style: none;
+    padding-left: 40px;
+    display: none;
+}
+
+.menu1 .title1 {
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.menu1 .title1::before {
+    content: "";
+    align-content: center;
+    font-size: 80%;
+}
+
+.menu1.open .title1::before {
+    content: ""
+}
+
+.menu1.open ul {
+    display: block;
+}
+
+
+
+#Qtwo {
+    width: 90%;
+    place-content: center;
+    place-self: center;
+    place-items: center;
+    position: relative;
+    top: 70px;
+    left: 20px;
+    border-bottom: 0.4px solid black;
+}
+
+#iconB {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url(plusB.jpg);
+    background-size: 100%;
+    position: absolute;
+    left: 400px;
+    top: -10px;
+}
+
+.menu2 ul {
+    margin: 0;
+    list-style: none;
+    padding-left: 40px;
+    display: none;
+}
+
+.menu2 .title2 {
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.menu2 .title2::before {
+    content: "";
+    font-size: 80%;
+}
+
+.menu2.open .title2::before {
+    content: "";
+}
+
+.menu2.open ul {
+    display: block;
+}
+
+
+#Qthree {
+    width: 90%;
+    place-content: center;
+    place-self: center;
+    place-items: center;
+    position: relative;
+    top: 90px;
+    left: 20px;
+    border-bottom: 0.4px solid black;
+}
+
+#iconC {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url(plusB.jpg);
+    background-size: 100%;
+    position: absolute;
+    left: 400px;
+    top: -10px;
+}
+
+.menu3 ul {
+    margin: 0;
+    list-style: none;
+    padding-left: 40px;
+    display: none;
+}
+
+.menu3 .title3 {
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.menu3 .title3::before {
+    content: "";
+    font-size: 80%;
+}
+
+.menu3.open .title3::before {
+    content: "";
+}
+
+.menu3.open ul {
+    display: block;
+}
+
+
+#Qfour {
+    width: 90%;
+    place-content: center;
+    place-self: center;
+    place-items: center;
+    position: relative;
+    top: 110px;
+    left: 20px;
+    border-bottom: 0.4px solid black;
+}
+
+#iconD {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url(plusB.jpg);
+    background-size: 100%;
+    position: absolute;
+    left: 400px;
+    top: -10px;
+}
+
+.menu4 ul {
+    margin: 0;
+    list-style: none;
+    padding-left: 40px;
+    display: none;
+}
+
+.menu4 .title4 {
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.menu4 .title4::before {
+    content: "";
+    font-size: 80%;
+}
+
+.menu4.open .title4::before {
+    content: "";
+}
+
+.menu4.open ul {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
